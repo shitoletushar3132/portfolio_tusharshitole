@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => {
-  const LiStyle = "p-4 ";
+  const LiStyle = "p-3 ";
   return (
     <div
       name="about"
@@ -27,7 +27,6 @@ const About = () => {
           </div>
         </p>
 
-        <br />
 
         <p className="text-xl">
           <span className="block font-bold underline mb-2">Education</span>
