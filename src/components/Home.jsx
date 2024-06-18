@@ -87,7 +87,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full "
+            className="rounded-2xl mx-auto w-2/4 md:w-full "
           />
           <div className=" lg:hidden">
             <ul className="flex">
