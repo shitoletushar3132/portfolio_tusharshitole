@@ -59,7 +59,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a <span className="text-fuchsia-400"> Full Stack Developer</span> 
           </h2>
-          <p className="text-gray-500 py-4 max-w-md text-xl">
+          <p className="text-gray-500 py-4 max-w-md">
             I have 2 years of experience building and desigining software.
             Currently, I love to work on web application using technologies like
             JavaScript, Node Js, React Js, Express, Tailwind, Next JS and
