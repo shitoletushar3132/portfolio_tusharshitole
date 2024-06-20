@@ -5,6 +5,7 @@ import wanderLust from "../assets/portfolio/wanderLust.png";
 import fiftyDay from "../assets/portfolio/FiftyDays.jpg";
 import reactWeather from "../assets/portfolio/weatherApp.png";
 import mern from "../assets/portfolio/mern.png";
+import currencyConvetor from "../assets/portfolio/currencyConvertor.png"
 
 function Portfolio() {
   const portfolios = [
@@ -26,8 +27,15 @@ function Portfolio() {
       id: 3,
       src: reactWeather,
       title: "Weather App",
-      demo: "https://weather-app-y5zv.onrender.com/",
+      demo: "https://mern-projects-dx8d.onrender.com/",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/Weather-app",
+    },
+    {
+      id: 7,
+      src: currencyConvetor,
+      title: "currency Convertor  ",
+      demo: "https://weather-app-y5zv.onrender.com/",
+      code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/currencyConvertor",
     },
     {
       id: 4,
@@ -56,6 +64,7 @@ function Portfolio() {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white "
     >
+      <br />
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
