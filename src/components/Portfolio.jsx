@@ -5,7 +5,8 @@ import wanderLust from "../assets/portfolio/wanderLust.png";
 import fiftyDay from "../assets/portfolio/FiftyDays.jpg";
 import reactWeather from "../assets/portfolio/weatherApp.png";
 import mern from "../assets/portfolio/mern.png";
-import currencyConvetor from "../assets/portfolio/currencyConvertor.png"
+import currencyConvetor from "../assets/portfolio/currencyConvertor.png";
+import pilgrim from "../assets/portfolio/pilgrim.png";
 
 function Portfolio() {
   const portfolios = [
@@ -22,6 +23,13 @@ function Portfolio() {
       title: "50 Day 50 Project",
       demo: "https://shitoletushar3132.github.io/web-projects/",
       code: "https://github.com/shitoletushar3132/web-projects",
+    },
+    {
+      id: 8,
+      src: pilgrim,
+      title: "pilgrim Journey",
+      demo: "https://pilgrim-journey.onrender.com/",
+      code: "https://github.com/shitoletushar3132/MERN_PROJECTS/blob/main/pilgrim-website",
     },
     {
       id: 3,
