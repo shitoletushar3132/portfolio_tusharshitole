@@ -7,9 +7,19 @@ import reactWeather from "../assets/portfolio/weatherApp.png";
 import mern from "../assets/portfolio/mern.png";
 import currencyConvetor from "../assets/portfolio/currencyConvertor.png";
 import pilgrim from "../assets/portfolio/pilgrim.png";
+import Ecommerce from "../assets/portfolio/E-commerce.png"
 
 function Portfolio() {
   const portfolios = [
+
+    {
+      id: 8,
+      src: Ecommerce,
+      title: "E-commerce Website",
+      demo: "https://ts-ecommerce-wpvd.onrender.com/",
+      code: "https://github.com/shitoletushar3132/MERN_ECOMMERCE",
+    },
+
     {
       id: 1,
       src: wanderLust,
