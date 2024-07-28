@@ -16,7 +16,7 @@ function Portfolio() {
       id: 8,
       src: Ecommerce,
       title: "E-commerce Website",
-      demo: "https://ts-ecommerce-wpvd.onrender.com/",
+      demo: "https://mern-ecommerce-alpha-nine.vercel.app/",
       code: "https://github.com/shitoletushar3132/MERN_ECOMMERCE",
     },
 
