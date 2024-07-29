@@ -45,14 +45,14 @@ function Portfolio() {
       id: 3,
       src: reactWeather,
       title: "Weather App",
-      demo: "https://mern-projects-dx8d.onrender.com/",
+      demo: "https://weather-app-y5zv.onrender.com/",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/Weather-app",
     },
     {
       id: 7,
       src: currencyConvetor,
       title: "currency Convertor  ",
-      demo: "https://weather-app-y5zv.onrender.com/",
+      demo: "https://mern-projects-dx8d.onrender.com/",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/currencyConvertor",
     },
     {
