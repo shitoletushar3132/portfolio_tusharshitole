@@ -7,17 +7,25 @@ import reactWeather from "../assets/portfolio/weatherApp.png";
 import mern from "../assets/portfolio/mern.png";
 import currencyConvetor from "../assets/portfolio/currencyConvertor.png";
 import pilgrim from "../assets/portfolio/pilgrim.png";
-import Ecommerce from "../assets/portfolio/E-commerce.png"
+import Ecommerce from "../assets/portfolio/E-commerce.png";
+import ChatApp from "../assets/portfolio/chat-App.png";
 
 function Portfolio() {
   const portfolios = [
-
     {
       id: 8,
       src: Ecommerce,
       title: "E-commerce Website",
       demo: "https://mern-ecommerce-alpha-nine.vercel.app/",
       code: "https://github.com/shitoletushar3132/MERN_ECOMMERCE",
+    },
+
+    {
+      id: 9,
+      src: ChatApp,
+      title: "Chat App",
+      demo: "https://chat-app-henna-six.vercel.app/",
+      code: "https://github.com/shitoletushar3132/chat-app",
     },
 
     {
