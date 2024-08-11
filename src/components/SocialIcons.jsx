@@ -40,7 +40,7 @@ function SocialIcons() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/main_resume.pdf",
+      href: "/NEW_RESUMElll.pdf",
       sytle: "rounded-br-md",
       download: true,
     },
