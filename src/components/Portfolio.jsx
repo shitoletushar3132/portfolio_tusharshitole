@@ -9,6 +9,7 @@ import currencyConvetor from "../assets/portfolio/currencyConvertor.png";
 import pilgrim from "../assets/portfolio/pilgrim.png";
 import Ecommerce from "../assets/portfolio/E-commerce.png";
 import ChatApp from "../assets/portfolio/chat-App.png";
+import NoteApp from "../assets/portfolio/noteapp.png";
 
 function Portfolio() {
   const portfolios = [
@@ -26,6 +27,14 @@ function Portfolio() {
       title: "Chat App",
       demo: "https://chat-app-henna-six.vercel.app/",
       code: "https://github.com/shitoletushar3132/chat-app",
+    },
+
+    {
+      id: 10,
+      src: NoteApp,
+      title: "Note App",
+      demo: "https://noteapp-ts.onrender.com/",
+      code: "https://github.com/shitoletushar3132/NoteApp_React",
     },
 
     {
