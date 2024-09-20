@@ -10,7 +10,7 @@ import pilgrim from "../assets/portfolio/pilgrim.png";
 import Ecommerce from "../assets/portfolio/E-commerce.png";
 import ChatApp from "../assets/portfolio/chat-App.png";
 import NoteApp from "../assets/portfolio/noteapp.png";
-import youtube from "../assets/portfolio/youtube";
+import youtube from "../assets/portfolio/youtube.jpeg";
 
 function Portfolio() {
   const portfolios = [
