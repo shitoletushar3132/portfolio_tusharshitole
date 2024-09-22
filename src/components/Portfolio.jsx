@@ -17,7 +17,7 @@ function Portfolio() {
     {
       id: 8,
       src: Ecommerce,
-      title: "E-commerce Website",
+      title: "ShopSmart",
       demo: "https://mern-ecommerce-alpha-nine.vercel.app/",
       code: "https://github.com/shitoletushar3132/MERN_ECOMMERCE",
     },
