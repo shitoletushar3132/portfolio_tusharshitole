@@ -15,8 +15,7 @@ import database from "../assets/database.png";
 import sql from "../assets/sql.png";
 const Experience = () => {
   const techs = [
-    { id: 10, src: java, title: "Java", style: "shadow-[#F44336]" },
-    { id: 11, src: python, title: "Python", style: "shadow-[#0277BD]" },
+
     { id: 13, src: database, title: "DataBase", style: "shadow-[#7C4DFF]" },
 
     {
