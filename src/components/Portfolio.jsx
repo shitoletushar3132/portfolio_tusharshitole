@@ -41,7 +41,7 @@ function Portfolio() {
       id: 11,
       src: NoteApp,
       title: "Note App",
-      demo: "https://noteapp-ts.onrender.com/",
+      demo: "https://noteapp03.onrender.com/",
       code: "https://github.com/shitoletushar3132/NoteApp_React",
     },
 
