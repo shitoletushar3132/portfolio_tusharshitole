@@ -40,7 +40,7 @@ function SocialIcons() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/NEW_RESUMElll.pdf",
+      href: "/Tushar_Shitole_8767699855.pdf",
       sytle: "rounded-br-md",
       download: true,
     },
