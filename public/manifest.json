@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tushar Portfolio",
+  "name": "Tushar Shitole - Full Stack Developer Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,12 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#4CAF50",
+  "background_color": "#ffffff",
+  "description": "Portfolio of Tushar Shitole, a skilled Full Stack Developer specializing in MERN stack development and creating innovative web solutions.",
+  "lang": "en",
+  "scope": "/",
+  "orientation": "portrait"
 }
