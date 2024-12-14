@@ -2,23 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="myLogo.png"
-    />
+    <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tushar Shitole - Web Developer Portfolio" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     <title>Tushar Portfolio</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tushar Shitole Portfolio" />
+    <meta property="og:description" content="Web Developer specializing in React and Node.js" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:url" content="https://your-portfolio-url.com" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tushar Shitole",
+      "jobTitle": "Web Developer",
+      "url": "https://your-portfolio-url.com",
+      "sameAs": [
+        "https://linkedin.com/in/tusharshitole",
+        "https://github.com/shitoletushar3132"
+      ]
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
