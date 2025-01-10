@@ -11,9 +11,17 @@ import Ecommerce from "../assets/portfolio/E-commerce.png";
 import ChatApp from "../assets/portfolio/chat-App.png";
 import NoteApp from "../assets/portfolio/noteapp.png";
 import youtube from "../assets/portfolio/youtube.jpeg";
+import devTinder from "../assets/portfolio/devTinder.png";
 
 function Portfolio() {
   const portfolios = [
+    {
+      id: 12,
+      src: devTinder,
+      title: "Dev Tinder",
+      demo: "https://dev-tinder03.vercel.app",
+      code: "https://github.com/shitoletushar3132/DevTinder",
+    },
     {
       id: 8,
       src: Ecommerce,

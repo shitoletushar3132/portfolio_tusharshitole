@@ -8,15 +8,82 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/monogo.png";
 import node from "../assets/node.png";
-import java from "../assets/java.png";
-import python from "../assets/python.png";
 import bootstrap from "../assets/bootstrap.png";
-import database from "../assets/database.png";
-import sql from "../assets/sql.png";
+import typescript from "../assets/ts-logo-256.png";
+import postgresSql from "../assets/PostgresSQL.png";
+import express from "../assets/Express.png";
+import aws from "../assets/AWS.png";
+import docker from "../assets/Docker.png";
+import liunx from "../assets/Linux.png"
+
 const Experience = () => {
   const techs = [
+    {
+      id: 14,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-300",
+    },
 
-    { id: 13, src: database, title: "DataBase", style: "shadow-[#7C4DFF]" },
+    {
+      id: 15,
+      src: express,
+      title: "Express",
+      style: "shadow-black",
+    },
+
+    {
+      id: 6,
+      src: node,
+      title: "Node Js",
+      style: "shadow-emerald-800",
+    },
+
+    {
+      id: 7,
+      src: postgresSql,
+      title: "PostGreSql",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 9,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+
+    {
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+
+    { id: 16, src: aws, title: "AWS", style: "shadow-yellow-500" },
+    { id: 17, src: docker, title: "Docker", style: "shadow-[#0db7ed]" },
+
+    {
+      id:18, src:liunx, title:"Linux", style:"shadow-yellow-600"
+    },
 
     {
       id: 1,
@@ -30,53 +97,12 @@ const Experience = () => {
       title: "CSS",
       style: "shadow-blue-500",
     },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
+
     {
       id: 12,
       src: bootstrap,
       title: "BootStrap",
       style: "shadow-[#7C4DFF]",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: node,
-      title: "Node Js",
-      style: "shadow-emerald-800",
-    },
-    {
-      id: 7,
-      src: sql,
-      title: "Sql",
-      style: "shadow-[#DCD5F2]",
-    },
-    {
-      id: 9,
-      src: mongodb,
-      title: "MongoDB",
-      style: "shadow-green-500",
-    },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
     },
   ];
 
