@@ -57,13 +57,19 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full p-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-7xl font-bold text-white">
-            I'm a <span className="text-fuchsia-400"> Full Stack Developer</span> 
+            I'm a{" "}
+            <span className="text-fuchsia-400"> Full Stack Developer</span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2 years of experience building and desigining software.
-            Currently, I love to work on web application using technologies like
-            JavaScript, Node Js, React Js, Express, Tailwind, Next JS and
-            MongoDB.
+            I am a passionate and dedicated software developer with 2 years of
+            experience in building and designing robust software solutions. My
+            expertise lies in crafting dynamic and user-friendly web
+            applications using modern technologies like TypeScript, JavaScript,
+            Node.js, React.js, Express.js, Tailwind CSS, Next.js, and MongoDB.
+            <br /> I also have a growing interest and hands-on experience in
+            DevOps, where I focus on streamlining development workflows,
+            automating deployments, and ensuring seamless CI/CD pipelines to
+            deliver high-quality and scalable applications.
           </p>
 
           <div>
