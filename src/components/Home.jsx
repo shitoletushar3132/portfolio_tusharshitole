@@ -61,15 +61,13 @@ const Home = () => {
             <span className="text-fuchsia-400"> Full Stack Developer</span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a passionate and dedicated software developer with 2 years of
-            experience in building and designing robust software solutions. My
-            expertise lies in crafting dynamic and user-friendly web
-            applications using modern technologies like TypeScript, JavaScript,
-            Node.js, React.js, Express.js, Tailwind CSS, Next.js, and MongoDB.
-            <br /> I also have a growing interest and hands-on experience in
-            DevOps, where I focus on streamlining development workflows,
-            automating deployments, and ensuring seamless CI/CD pipelines to
-            deliver high-quality and scalable applications.
+            I am a dedicated software developer with 2 years of experience in
+            building dynamic and user-friendly web applications using
+            TypeScript, JavaScript, React.js, Node.js, Express.js, Next.js,
+            Tailwind CSS, and MongoDB. Passionate about DevOps, I specialize in
+            streamlining workflows, automating deployments, and ensuring
+            seamless CI/CD pipelines to deliver scalable, high-quality software
+            solutions.
           </p>
 
           <div>
