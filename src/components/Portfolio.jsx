@@ -9,7 +9,7 @@ import currencyConvetor from "../assets/portfolio/currencyConvertor.png";
 import pilgrim from "../assets/portfolio/pilgrim.png";
 import Ecommerce from "../assets/portfolio/E-commerce.png";
 import ChatApp from "../assets/portfolio/chat-App.png";
-import NoteApp from "../assets/portfolio/noteapp.png";
+import saveNote from "../assets/portfolio/notes.png";
 import youtube from "../assets/portfolio/youtube.jpeg";
 import devTinder from "../assets/portfolio/devTinder.png";
 
@@ -19,14 +19,21 @@ function Portfolio() {
       id: 12,
       src: devTinder,
       title: "Dev Tinder",
-      demo: "https://dev-tinder03.vercel.app",
+      demo: "https://devmatch.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/DevTinder",
+    },
+    {
+      id: 11,
+      src: saveNote,
+      title: "Save Notes",
+      demo: "https://savenote.tusharshitole.site",
+      code: "https://github.com/shitoletushar3132/NoteApp_React",
     },
     {
       id: 8,
       src: Ecommerce,
       title: "ShopSmart",
-      demo: "https://mern-ecommerce-alpha-nine.vercel.app/",
+      demo: "https://shopsmart.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/MERN_ECOMMERCE",
     },
 
@@ -34,7 +41,7 @@ function Portfolio() {
       id: 9,
       src: ChatApp,
       title: "Chat App",
-      demo: "https://chat-app-henna-six.vercel.app/",
+      demo: "https://chatsimply.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/chat-app",
     },
     {
@@ -43,14 +50,6 @@ function Portfolio() {
       title: "FuncTube",
       demo: "https://youtube-03.vercel.app/",
       code: "https://github.com/shitoletushar3132/Youtube",
-    },
-
-    {
-      id: 11,
-      src: NoteApp,
-      title: "Note App",
-      demo: "https://noteapp03.onrender.com/",
-      code: "https://github.com/shitoletushar3132/NoteApp_React",
     },
 
     {
@@ -64,28 +63,28 @@ function Portfolio() {
       id: 2,
       src: fiftyDay,
       title: "50 Day 50 Project",
-      demo: "https://shitoletushar3132.github.io/web-projects/",
+      demo: "https://webprojects.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/web-projects",
     },
     {
       id: 8,
       src: pilgrim,
       title: "pilgrim Journey",
-      demo: "https://pilgrim-journey.onrender.com/",
+      demo: "https://pilgrimjourney.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/blob/main/pilgrim-website",
     },
     {
       id: 3,
       src: reactWeather,
       title: "Weather App",
-      demo: "https://weather-app-y5zv.onrender.com/",
+      demo: "https://weatherdashborad.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/Weather-app",
     },
     {
       id: 7,
       src: currencyConvetor,
       title: "currency Convertor  ",
-      demo: "https://mern-projects-dx8d.onrender.com/",
+      demo: "https://pilgrimjourney.tusharshitole.site",
       code: "https://github.com/shitoletushar3132/MERN_PROJECTS/tree/main/currencyConvertor",
     },
     {

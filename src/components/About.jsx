@@ -35,7 +35,7 @@ const About = () => {
               <p>PDEA's College Of Engineering Manjari, pune</p>
               <p className="text-amber-500"> Jun.2021 - May.2025</p>
               <p>
-                Bachelor of Engineering in Computer Science - CGPA : 8.33/10
+                Bachelor of Engineering in Computer Science - CGPA : 8.65/10
               </p>
             </li>
             <li className={LiStyle}>
