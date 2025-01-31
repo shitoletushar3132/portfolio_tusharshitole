@@ -12,9 +12,18 @@ import ChatApp from "../assets/portfolio/chat-App.png";
 import saveNote from "../assets/portfolio/notes.png";
 import youtube from "../assets/portfolio/youtube.jpeg";
 import devTinder from "../assets/portfolio/devTinder.png";
+import easysave from "../assets/portfolio/easysave.png";
 
 function Portfolio() {
   const portfolios = [
+    {
+      id: 13,
+      src: easysave,
+      title: "Easy Save",
+      demo: "https://easysave.tusharshitole.site",
+      code: "https://github.com/shitoletushar3132/easysave",
+    },
+
     {
       id: 12,
       src: devTinder,
