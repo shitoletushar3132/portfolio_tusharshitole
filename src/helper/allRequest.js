@@ -9,4 +9,4 @@ const fetchData = async () => {
 };
 
 // Call fetchData every 20 seconds
-setInterval(fetchData, 20000);
+export { fetchData };

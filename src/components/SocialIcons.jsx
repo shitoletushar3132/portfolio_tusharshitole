@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { fetchData } from "../helper/allRequest";
 
 function SocialIcons() {
   const links = [
@@ -45,6 +46,13 @@ function SocialIcons() {
       download: true,
     },
   ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      fetchData();
+    }, 10000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
